@@ -12,7 +12,7 @@ main = do
     let file = "calc.txt"
     let laskut = collatzToInt n
     Prelude.putStrLn "laskut valmiit!"
-    print . Prelude.last $ laskut
+    -- print . Prelude.last $ laskut
     BS.writeFile file (printListAsString laskut)
     Prelude.putStrLn "all done!"
 
