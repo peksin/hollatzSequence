@@ -1,0 +1,1 @@
+stack --resolver=lts-16.10 new testi
